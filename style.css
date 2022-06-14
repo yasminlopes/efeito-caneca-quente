@@ -1,0 +1,27 @@
+.cup-animation {
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+  max-width: 35vw;
+  z-index: 1;
+}
+
+.cup-image {
+  /* max-width: 650px; */
+  max-width: 100%;
+}
+
+.smoke-image {
+  /* max-width: 450px; */
+  max-width: 25vw;
+  position: absolute;
+  left: 0px;
+  top: 5vw;
+  opacity: 1;
+  transform: translate(-2.5vw, -100%);
+  opacity: 0.23;
+}
+
+body{
+  background: black;
+}
